@@ -1,0 +1,81 @@
+"Start Symbol" = <program>
+!--------------------TERMINALS----------------------------
+!{Letter}       = {A-Z a-z}
+!{Digit}         = {0-9}
+!{AlphaNumeric}  = {Letter} + {Digit}
+!{Whitespace}    = {'\t' '\n' '\r' ' '}
+
+
+ID            = {Letter} {AlphaNumeric}*
+
+Number        = ('+' | '-')? {Digit}+ ('.' {Digit}+)? (('e' | 'E') ('+' | '-')? {Digit}+)?
+
+!----------------rules--------------------------------
+
+
+<program>         ::= <statements>
+
+<statements>      ::= <statement> <statements>
+                    | <empty>
+
+<statement>       ::= <var_decl>
+                    | <assign_stmt>
+                    | <if_stmt>
+                    | <for_stmt>
+                    | <switch_stmt>
+                    | <expr_stmt>
+
+<var_decl>        ::= 'var' ID <type> '=' <expr> ';'
+
+<type>            ::= 'int' | 'float64' | 'string'
+
+<assign_stmt>     ::= ID '=' <expr> ';'
+
+<expr_stmt>       ::= <expr> ';'
+                   
+!---------------expresions-----------
+<expr>       ::= <expr> '+' <term>
+               | <expr> '-' <term>
+               | <term>
+
+<term>       ::= <term> '*' <factor>
+               | <term> '/' <factor>
+               | <factor>
+
+<factor>     ::= '(' <expr> ')'
+               | ID
+               | Number
+               | 'true'
+               | 'false'
+
+!-------------conditions--------------
+<if_stmt>         ::= 'if' <expr> '{' <statements> '}'
+                    | 'if' <expr> '{' <statements> '}' 'else' '{' <statements> '}'
+                    
+!------------loops--------------------
+<for_stmt>        ::= 'for' <expr> '{' <statements> '}'
+                   
+!-----------------switch case-------------
+
+<switch_stmt>     ::= 'switch' <expr> '{' <case_blocks> '}'
+
+
+<case_blocks> ::= <case_block_list> <default_opt>
+
+<case_block_list> ::= <case_block> <case_block_list>
+                    | <case_block>
+
+<default_opt> ::= <default_block>
+                | <empty>
+
+
+<case_block>      ::= 'case' <expr> ':' <statements>
+
+<default_block>   ::= 'default' ':' <statements>
+
+<empty>           ::=
+
+
+
+
+

@@ -1,0 +1,16 @@
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\bin\Debug\PLD-Project.exe
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\bin\Debug\PLD-Project.pdb
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\bin\Debug\CalithaLib.dll
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\bin\Debug\GoldParserEngine.dll
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\obj\Debug\PLD-Project.csprojResolveAssemblyReference.cache
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\obj\Debug\PLD_Project.MainForm.resources
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\obj\Debug\PLD-Project.csproj.GenerateResource.Cache
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\obj\Debug\PLD-Project.exe
+C:\Users\AS\Documents\SharpDevelop Projects\PLD_WinForm\PLD_WinForm\PLD-Project\PLD-Project\obj\Debug\PLD-Project.pdb
+C:\Users\AS\Desktop\PLD-Project\PLD-Project\bin\Debug\PLD-Project.exe
+C:\Users\AS\Desktop\PLD-Project\PLD-Project\bin\Debug\PLD-Project.pdb
+C:\Users\AS\Desktop\PLD-Project\PLD-Project\obj\Debug\PLD-Project.csprojResolveAssemblyReference.cache
+C:\Users\AS\Desktop\PLD-Project\PLD-Project\obj\Debug\PLD_Project.MainForm.resources
+C:\Users\AS\Desktop\PLD-Project\PLD-Project\obj\Debug\PLD-Project.csproj.GenerateResource.Cache
+C:\Users\AS\Desktop\PLD-Project\PLD-Project\obj\Debug\PLD-Project.exe
+C:\Users\AS\Desktop\PLD-Project\PLD-Project\obj\Debug\PLD-Project.pdb
